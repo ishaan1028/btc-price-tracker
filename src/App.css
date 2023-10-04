@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.cardwrapper {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  text-align: center;
+  width: 40rem;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.btcImage {
+  height: 4rem;
+  margin-right: 1rem;
+}
+
+.btcImage img {
+  height: 100%;
+  border-radius: 50%;
+}
+
+.priceText {
+  margin-bottom: 2rem;
+}
+
+.pairName {
+  margin: 0;
+}
+
+.cmpSpan {
+  font-size: 2rem;
+}
+
+.oldPricesDiv {
+  text-align: center;
+  max-height: 19rem;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.oldPricesItem {
+  padding: 1rem;
+}
+
+.errorMsg {
+  margin-top: 2rem;
+  color: red;
+  text-align: center;
+}
