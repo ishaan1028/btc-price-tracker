@@ -38,6 +38,7 @@ function Home() {
               <span>live price by coinmarketcap.com</span>
             </div>
           </div>
+          <span>API called every 2 sec but price changes every 15-30 sec</span>
           <div className="cardBody">
             <div className="priceText">
               <h2>
